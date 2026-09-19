@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#ft_list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+#ft_list div {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    word-break: break-word; 
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+#ft_list div:hover {
+    background-color: #ffe6e6; 
+}

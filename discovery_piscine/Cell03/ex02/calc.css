@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(160, 214, 188);
+    font-family: Arial, sans-serif;
+}
+.calculator {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+input[type="text"], select {
+    padding: 8px;
+    margin: 5px;
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #7dffd2;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background: rgb(77, 255, 71);
+}

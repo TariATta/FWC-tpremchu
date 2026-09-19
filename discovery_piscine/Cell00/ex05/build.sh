@@ -1,10 +1,9 @@
 #!/bin/sh
 
 if [ $# -eq 0 ]; then
-    echo "No arguement supplied"
+	echo "No arguments supplied"
 else
-
-    for arg in "$@"; do
-        mkdir "ex$arg"
-    done
+	for arg in "$@"; do
+		mkdir "ex$arg"
+	done
 fi

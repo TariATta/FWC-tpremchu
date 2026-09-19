@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+table{
+    width: 100%;
+    height: 100vh;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+td{
+    border: 1px solid brown;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2vw;
+}
+.cell1{
+    background-color: pink;
+}
+.cell2{
+    background-color: aquamarine;
+}

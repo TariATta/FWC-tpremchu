@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.parallax{
+    min-height: 100vh;
+    display: flex;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.pic1{
+    background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202603/1015/96492e846270756611d41eafac78a1cd06a47dbf5caf3770.png);
+}
+.pic2{
+    background-image: url(https://images.gamewatcherstatic.com/image/file/4/35/108454/Minecraft-Nether-Update-2.jpg?v=2);
+}
+.blackbox{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}

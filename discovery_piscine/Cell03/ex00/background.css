@@ -1,0 +1,16 @@
+body { 
+  font-family: Arial, sans-serif;
+  transition: background-color 0.5s; 
+}
+
+button {
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  background-color: #b8b8b8;
+  color: black;
+}
+
+button:hover {
+  background-color: #ffffff;
+}
